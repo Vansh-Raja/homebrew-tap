@@ -2,9 +2,9 @@ class Sshthing < Formula
   desc "Secure SSH manager TUI (SQLCipher + AES-GCM) with SSH/SFTP and Finder mounts"
   homepage "https://github.com/Vansh-Raja/SSHThing"
 
-  # For an initial tap-based install, ship a HEAD-only formula.
-  # Once you cut releases, replace this with `url` + `sha256` blocks.
-  head "https://github.com/Vansh-Raja/SSHThing.git", branch: "homebrew-tap"
+  url "https://github.com/Vansh-Raja/SSHThing/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "2caae99598a2df3c9756a0bc5d80dff0d822fa69c80321635b35f155a425960c"
+  head "https://github.com/Vansh-Raja/SSHThing.git", branch: "main"
 
   depends_on "go" => :build
   depends_on "sqlcipher"
