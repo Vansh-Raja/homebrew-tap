@@ -2,9 +2,9 @@ class SshthingBeta < Formula
   desc "Secure SSH manager TUI (SQLCipher + AES-GCM) with SSH/SFTP and Finder mounts"
   homepage "https://github.com/Vansh-Raja/SSHThing"
 
-  url "https://github.com/Vansh-Raja/SSHThing/archive/refs/tags/v3.0.0-beta.3.tar.gz"
-  version "3.0.0-beta.3"
-  sha256 "b40b5a1649656760b216c99ce9c829987cf486ff84ed8eeb1b079ae1cfe484d3"
+  url "https://github.com/Vansh-Raja/SSHThing/archive/refs/tags/v3.0.0-beta.4.tar.gz"
+  version "3.0.0-beta.4"
+  sha256 "80b504ef023a70e1fb892aec2d5f8e07f89666066a4fbfaac6f8dc82578e25bc"
   head "https://github.com/Vansh-Raja/SSHThing.git", branch: "main"
 
   depends_on "go" => :build
